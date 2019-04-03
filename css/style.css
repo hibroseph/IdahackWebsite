@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 :root {
   --white: #fff;
@@ -60,9 +61,10 @@
   }
 }
 .hero-banner p {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--white);
   margin-bottom: 0;
+  font-family: 'Roboto Mono', sans-serif;
 }
 .hero-banner::after {
   content: "";
@@ -188,11 +190,6 @@
    .hero-banner h2 {
      font-size: 42px;
    }
- }
- .hero-banner p {
-   font-size: 22px;
-   color: var(--white);
-   margin-bottom: 0;
  }
  .hero-banner::after {
    content: "";
@@ -680,10 +677,10 @@
    margin: 0;
  }
  .primary-text {
-   color: var(--dark-secondary);
+   color: var(--bg-main);
  }
  .primary-text2 {
-   color: var(--secondary);
+   color: var(--dark-secondary);
  }
  .primary-bg {
    background-color: var(--secondary);
