@@ -145,18 +145,18 @@
   ============================================================================================ */
  .hero-banner {
    position: relative;
-   padding: 70px 0;
+   padding: 30px 0 70px 0;
    background: url("../img/banner/hero-banner.jpg") left center no-repeat;
    background-size: cover;
  }
  @media (min-width: 768px) {
    .hero-banner {
-     padding: 150px 0;
+     padding: 75px 0 150px 0;
    }
  }
  @media (min-width: 1200px) {
    .hero-banner {
-     padding: 240px 0;
+     padding: 120px 0 240px 0;
    }
  }
  .hero-banner-sm {
