@@ -55,8 +55,7 @@
   <!--================Hero Banner Area Start =================-->
   <section class="hero-banner">
     <div class="container text-center">
-      <p>September 20-21, 2019</p>
-      <p>Pocatello, ID</p>
+      <p id="date-time">September 20-21, 2019</p>
       <h1>IDAHACK 2019</h1>
       <a class="button button-header" href="#">Register</a>
     </div>
@@ -328,8 +327,16 @@
   <script src="js/countdown.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/main.js"></script>
-
-
-
+  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+  <script type="text/javascript">
+    var app = document.getElementById('date-time');
+    var typewriter = new Typewriter(app, {
+        loop: true
+    });
+    typewriter
+        .typeString('September 20-21, 2019 || Pocatello, ID')
+        .pauseFor(7500)
+        .start();
+  </script>
 </body>
 </html>
