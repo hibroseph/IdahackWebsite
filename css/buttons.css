@@ -1,0 +1,55 @@
+ .button {
+   font-family: 'Oswald', sans-serif;
+   display: inline-block;
+   border: 1px solid transparent;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 12px 54px;
+   border-radius: 4px;
+   color: #242424;
+   border: 1px solid var(--secondary);
+   text-transform: uppercase;
+   -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+ }
+ @media (max-width: 767px) {
+   .button {
+     font-size: 13px;
+     padding: 9px 24px;
+   }
+ }
+ .button:hover {
+   background: var(--secondary);
+   color: var(--white);
+ }
+ .button-link {
+   letter-spacing: 0;
+   color: var(--secondary);
+   border: 0;
+   padding: 0;
+ }
+ .button-link:hover {
+   background: transparent;
+   color: var(--secondary);
+ }
+ .button-header {
+   background: var(--secondary);
+   color: var(--white);
+   border-color: var(--secondary);
+ }
+ .button-header:hover {
+   background: var(--dark-secondary);
+   color: var(--white);
+ }
+ .button-contactForm {
+   background: var(--secondary);
+   color: var(--white);
+   border-color: var(--secondary);
+ }
+ .button-contactForm:hover {
+   border-color: var(--dark-secondary);
+   background: #b8024c;
+   color: var(--white);
+ }

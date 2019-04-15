@@ -1,0 +1,44 @@
+.innovative-wrapper h3 {
+  margin-bottom: 25px;
+}
+.innovative-wrapper p {
+  margin-bottom: 0;
+}
+.clockdiv {
+  margin-bottom: 35px;
+}
+.clockdiv li {
+  display: inline-block;
+  margin-right: 30px;
+}
+@media (max-width: 320px) {
+  .clockdiv li {
+    margin-right: 0;
+  }
+}
+.clockdiv li:last-child {
+  margin-right: 0;
+}
+.clockdiv h1 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 1;
+  color: var(--secondary);
+}
+.clockdiv .smalltext {
+  font-size: 14px;
+  font-weight: 300;
+}
+.clockdiv .clockdiv-single {
+  width: 130px;
+  height: 145px;
+  text-align: center;
+  padding-top: 45px;
+}
+.clockdiv .clockdiv-day {
+}
+.clockdiv .clockdiv-hour {
+}
+.clockdiv .clockdiv-minute {
+}
