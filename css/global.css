@@ -12,7 +12,6 @@ body {
 }
 
 
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -115,6 +114,11 @@ h4,
     padding: 130px 0;
   }
 }
+
+.padded-paragraph {
+  margin-bottom: 25px !important;
+}
+
 .pb-98px {
   padding-bottom: 58px;
 }
