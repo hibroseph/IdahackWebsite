@@ -97,6 +97,7 @@ h4,
     }
 }
 
+/*logo size on small devices */
 @media (max-width: 576px) {
     .sponsor-single img {
         max-width: 50%;
